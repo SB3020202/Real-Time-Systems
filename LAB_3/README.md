@@ -1,33 +1,32 @@
-
 # Labwork 3 – Fruit Splitter 🍎🍊  
-**STR – Sistemas de Tempo Real (2024/2025)**
+**STR – Real-Time Systems (2024/2025)**
 
-## 📌 Descrição
-Este repositório contém o desenvolvimento do **Labwork 3 – Fruit Splitter**, no âmbito da unidade curricular **STR – Sistemas de Tempo Real**, com foco na **modelação e simulação de sistemas usando Redes de Petri**.
+## 📌 Description
+This repository contains the development of **Labwork 3 – Fruit Splitter**, carried out in the scope of the course **STR – Real-Time Systems**, with a focus on **modeling and simulation of systems using Petri Nets**.
 
-O trabalho envolve o controlo de um transportador (conveyor), a integração com um simulador baseado na arquitetura Raspberry Pi, a modelação e simulação de Redes de Petri no HPSim e o desenvolvimento progressivo até ao sistema Fruit Splitter.
-
----
-
-## 🎯 Objetivos
-- Modelar e simular sistemas concorrentes usando Redes de Petri  
-- Controlar um sistema físico simulado através de Python  
-- Integrar o simulador HPSim com um sistema externo  
-- Implementar modos de funcionamento manual e automático  
-- Desenvolver o controlo completo do sistema Fruit Splitter  
+The work involves controlling a conveyor system, integrating a simulator based on the Raspberry Pi architecture, modeling and simulating Petri Nets using HPSim, and progressively developing the complete Fruit Splitter system.
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 🎯 Objectives
+- Model and simulate concurrent systems using Petri Nets  
+- Control a simulated physical system using Python  
+- Integrate the HPSim simulator with an external system  
+- Implement manual and automatic operating modes  
+- Develop the complete control of the Fruit Splitter system  
+
+---
+
+## 🛠️ Tools Used
 - Python 3  
 - Visual Studio Code  
 - HPSim (HPetriNetSim)  
-- Simulador STR (Simple Conveyor / Fruit Splitter)  
-- Browser para interface web do simulador  
+- STR Simulator (Simple Conveyor / Fruit Splitter)  
+- Web browser for the simulator interface  
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 ```
 .
 ├── simple_conveyor.py
@@ -38,102 +37,103 @@ O trabalho envolve o controlo de um transportador (conveyor), a integração com
 ├── README.md
 ```
 
-Os ficheiros `.hps` correspondem às Redes de Petri criadas no HPSim.
+The `.hps` files correspond to the Petri Nets created in **HPSim**.
 
 ---
 
-## ⚙️ Instalação e Configuração
+## ⚙️ Installation and Setup
 
-### 1. Instalar Python
-Download em:  
+### 1. Install Python
+Download from:  
 https://www.python.org/downloads/
 
-### 2. Instalar Visual Studio Code
+### 2. Install Visual Studio Code
 https://code.visualstudio.com/
 
-Instalar as extensões:
+Install the extensions:
 - Python  
 - Python Debugger  
 
-### 3. Preparar o ambiente
-Criar a pasta:
+### 3. Environment Setup
+Create the folder:
 ```
 c:\str\labwork3
 ```
 
-Descompactar `str_lab3_simulator_for_students.zip` nesta pasta e abrir no VS Code:
+Extract `str_lab3_simulator_for_students.zip` into this folder and open it in VS Code:
 ```
 code .
 ```
 
 ---
 
-## ▶️ Executar o Simulador
+## ▶️ Running the Simulator
 
 ### Simple Conveyor
-Executar:
+Run:
 ```
 python simple_conveyor.py
 ```
 
-Abrir no browser:
+Open in a web browser:
 ```
 http://localhost:8089/index.html
 ```
 
-Selecionar:
+Select:
 - Raspberry PI board  
 - Simple Conveyor Scene  
 
-### Controlo por Teclado
-Executar:
+### Keyboard Control
+Run:
 ```
 python simple_conveyor_keyboard.py
 ```
 
-Este modo permite controlar o estado do conveyor através do teclado.
+This mode allows controlling the conveyor state using the keyboard.
 
 ---
 
-## 🧠 Redes de Petri – HPSim
-Executar o ficheiro `HPetriNetSim.exe` e criar as Redes de Petri pedidas no enunciado do trabalho.  
-As redes devem ser simuladas e testadas nos seguintes aspetos:
-- Redes sequenciais  
-- Modos manual e automático  
-- Integração com o sistema Python  
+## 🧠 Petri Nets – HPSim
+Run `HPetriNetSim.exe` and create the Petri Nets required in the lab assignment.  
+The networks should be simulated and tested regarding:
+- Sequential networks  
+- Manual and automatic modes  
+- Integration with the Python system  
 
-Manual do HPSim (Português):  
+HPSim manual (Portuguese):  
 http://sites.poli.usp.br/d/pmr5008/Arquivos/Apostila_HPSim.pdf
 
 ---
 
 ## 🍏 Fruit Splitter
-A fase final do trabalho consiste no desenvolvimento do sistema **Fruit Splitter**, envolvendo:
-- Controlo de cilindros  
-- Movimento e separação de frutos  
-- Criação de redes de Petri modulares  
-- Integração total com o simulador  
+The final phase of the work consists of developing the **Fruit Splitter** system, which includes:
+- Cylinder control  
+- Fruit movement and separation  
+- Creation of modular Petri Nets  
+- Full integration with the simulator  
 
-A implementação é feita de forma incremental, começando por redes simples e evoluindo para o sistema completo.
+The implementation is incremental, starting with simple networks and evolving into the complete system.
 
 ---
 
-## 📚 Documentos de Apoio
+## 📚 Supporting Documents
 - STR_fruit_splitter.pdf  
 - Python_revisions.pptx  
-- Enunciado do Labwork 3  
+- Labwork 3 assignment description  
 
 ---
 
-## ✅ Estado do Projeto
+## ✅ Project Status
 - [x] Simple Conveyor  
-- [x] Integração com HPSim  
-- [x] Modo Manual  
-- [x] Modo Automático  
-- [ ] Fruit Splitter completo  
+- [x] HPSim Integration  
+- [x] Manual Mode  
+- [x] Automatic Mode  
+- [ ] Complete Fruit Splitter  
 
 ---
 
-## 👨‍🎓 Autor
-Trabalho desenvolvido no âmbito da unidade curricular **STR – Sistemas de Tempo Real**  
-Ano letivo **2024/2025**
+## 👨‍🎓 Author
+Work developed within the scope of the course  
+**STR – Real-Time Systems**  
+Academic year **2024/2025**
