@@ -1,6 +1,8 @@
 # Labwork 3 – Fruit Splitter 🍎🍊  
 **STR – Real-Time Systems (2025/2026)**
 
+## Final Grade: 16.3/20
+
 ## 📌 Description
 This repository contains the development of **Labwork 3 – Fruit Splitter**, carried out in the scope of the course **STR – Real-Time Systems**, with a focus on **modeling and simulation of systems using Petri Nets**.
 
