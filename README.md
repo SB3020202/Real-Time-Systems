@@ -4,6 +4,8 @@
 **Institution:** NOVA School of Science & Technology (FCT-NOVA)  
 **Academic Year:** 2025/2026  
 
+** Final Grade of the 3 labs: 18/20
+
 This repository contains three laboratory projects developed within the scope of the **Real-Time Systems (STR)** course.  
 Each lab focuses on different real-time paradigms, technologies, and abstraction levels, ranging from low-level RTOS programming to high-level modeling with Petri Nets.
 
