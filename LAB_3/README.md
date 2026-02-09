@@ -129,11 +129,11 @@ The implementation is incremental, starting with simple networks and evolving in
 - [x] HPSim Integration  
 - [x] Manual Mode  
 - [x] Automatic Mode  
-- [ ] Complete Fruit Splitter  
+- [x] Complete Fruit Splitter  
 
 ---
 
-## 👨‍🎓 Author
+## 👨‍🎓 Sidi Brahim
 Work developed within the scope of the course  
 **STR – Real-Time Systems**  
-Academic year **2024/2025**
+Academic year **2025/2026**
